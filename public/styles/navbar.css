@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    box-shadow: var(--shadow-pink-container);
+}
+
+.navbar .brand{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 4px 10px;
+    color: var(--color-pink);
+    border-radius: 4px;
+    background-color: var(--color-navy);
+}
+
+.navbar .user{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 8px;
+    font-size: 12px;
+    margin-left: auto;
+    box-shadow: var(--shadow-pink);
+    border-radius: 4px;
+}
+.navbar .user .name{
+    font-weight: 700;
+}
+.navbar .user .profile{
+    width: 32px;
+    height: 32px;
+    background-color: tomato;
+    border-radius: 100%;
+}

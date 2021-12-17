@@ -1,0 +1,28 @@
+.sidebar{
+    background-color: white;
+}
+
+.sidebar .menu{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sidebar .menu .item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+    opacity: .8;
+}
+.sidebar .menu .item.active, .sidebar .menu .item:hover{
+    background: var(--color-pink);
+    color: white;
+    opacity: 1;
+}
+
+.sidebar .item .icon{
+    font-size: 18px;
+}
